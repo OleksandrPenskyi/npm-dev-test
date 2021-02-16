@@ -1,0 +1,32 @@
+{
+  "name": "npm-dev-test",
+  "version": "1.0.0",
+  "description": "Test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src -d lib",
+    "deploy": "gh-pages -d lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OleksandrPenskyi/npm-dev-test.git"
+  },
+  "keywords": [],
+  "author": "OLEKSANDR_PENSKYI <suchgoodidea@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OleksandrPenskyi/npm-dev-test/issues"
+  },
+  "homepage": "https://github.com/OleksandrPenskyi/npm-dev-test#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "gh-pages": "^3.1.0",
+    "validator": "^13.5.2"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.12.16",
+    "@babel/core": "^7.12.16",
+    "@babel/preset-env": "^7.12.16"
+  }
+}
